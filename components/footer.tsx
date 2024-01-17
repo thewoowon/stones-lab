@@ -57,7 +57,7 @@ const Footer = () => {
             <div className="text-lg text-neutral-600">기록의 석재&nbsp;</div>
             <div className="text-lg text-neutral-600">
               그리고&nbsp;
-              <Link href={""} className="font-bold text-blue-500">
+              <Link href={"https://tikitaka.chat"} className="font-bold text-blue-500">
                 티키타카
               </Link>
             </div>
