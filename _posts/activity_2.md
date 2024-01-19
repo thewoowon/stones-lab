@@ -1,6 +1,6 @@
 ---
-title: "테크 미팅 참여한 후기"
-excerpt: "2월 1일 열린 열린 테크 미팅에 참여하고 느낀 점을 공유합니다."
+title: "네이버 클라우드 인터뷰에 참여했습니다."
+excerpt: "1월 19일 네이버 클라우드 판교 테크원 본사에서 인터뷰를 진행했습니다."
 coverImage: "/assets/blog/activity_2/cover.jpg"
 date: "2023-12-01T00:00:00.000Z"
 author:
