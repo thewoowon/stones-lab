@@ -13,9 +13,9 @@ type Props = {
 };
 
 export default function Index({ allPosts }: Props) {
-  const heroPost = allPosts[0];
-  const ourActivities = allPosts.slice(1, 3);
-  const interviews = allPosts.slice(3, 5);
+  const hero = allPosts.filter((post) => post.category === "hero")[0];
+  const activities = allPosts.filter((post) => post.category === "activity");
+  const interviews = allPosts.filter((post) => post.category === "interview");
   return (
     <>
       <Layout>
@@ -24,17 +24,17 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Intro />
-          {heroPost && (
+          {hero && (
             <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
+              title={hero.title}
+              coverImage={hero.coverImage}
+              date={hero.date}
+              author={hero.author}
+              slug={hero.slug}
+              excerpt={hero.excerpt}
             />
           )}
-          {ourActivities.length > 0 && <OurActivities posts={ourActivities} />}
+          {activities.length > 0 && <OurActivities posts={activities} />}
           {interviews.length > 0 && <Interviews posts={interviews} />}
         </Container>
       </Layout>
@@ -50,6 +50,7 @@ export const getStaticProps = async () => {
     "author",
     "coverImage",
     "excerpt",
+    "category",
   ]);
 
   return {
