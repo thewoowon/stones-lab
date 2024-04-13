@@ -2,11 +2,19 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    domains: [
-      'imagedelivery.net',
-      'velog.velcdn.com',
-      'images.unsplash.com',
-      'res.cloudinary.com',
+    remotePatterns: [
+      {
+        hostname: "imagedelivery.net",
+      },
+      {
+        hostname: "velog.velcdn.com",
+      },
+      {
+        hostname: "images.unsplash.com",
+      },
+      {
+        hostname: "res.cloudinary.com",
+      },
     ],
   },
 };
