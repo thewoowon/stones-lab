@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
@@ -29,7 +29,7 @@ const Slider = ({
       <Swiper
         spaceBetween={20}
         slidesPerView={3}
-        onSlideChange={(swiper) => onChange(swiper.activeIndex)}
+        onSlideChange={(swiper: SwiperClass) => onChange(swiper.activeIndex)}
         style={{ width: "100%", padding: "10px" }}
         pagination={{ clickable: true }}
         mousewheel={true}
