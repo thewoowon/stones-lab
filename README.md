@@ -1,5 +1,7 @@
 # 스톤즈랩 블로그, 기록의 석재
 
+![cover](https://github.com/thewoowon/stones-lab/assets/60413257/9b116724-4388-4a47-91d5-f09821e80162)
+
 ## 최근 글
 
 1. [스톤즈랩과 안녕,자비스팀의 이상동몽(異床同夢)](https://www.stoneslab.blog/posts/hero_job_it_service)
