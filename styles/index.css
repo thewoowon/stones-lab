@@ -30,6 +30,15 @@ body {
       @apply text-gray-700 dark:text-gray-300 my-0;
     }
   }
+  ul {
+    @apply list-disc list-inside;
+  }
+  ol {
+    @apply list-decimal list-inside;
+  }
+  li {
+    @apply mb-2;
+  }
 }
 
 /* Post styles */

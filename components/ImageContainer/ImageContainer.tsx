@@ -33,5 +33,6 @@ const Container = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 `;

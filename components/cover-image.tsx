@@ -21,7 +21,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
     />
   );
   return (
-    <div className="sm:mx-0">
+    <div className="sm:mx-0 overflow-hidden">
       {slug ? (
         <Link as={`/posts/${slug}`} href="/posts/[slug]" aria-label={title}>
           {image}
