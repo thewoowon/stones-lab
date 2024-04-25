@@ -16,10 +16,10 @@ body {
     @apply mb-6 text-6xl font-semibold;
   }
   h2 {
-    @apply mb-2 text-4xl font-semibold;
+    @apply mb-4 text-3xl font-semibold;
   }
   h3 {
-    @apply mb-2 text-2xl font-semibold;
+    @apply mb-2 text-xl font-semibold;
   }
   p {
     @apply mb-4 text-lg;
